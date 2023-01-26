@@ -4,6 +4,6 @@ const app=express();
 const port = process.env.PORT || 3001;
 
 app.listen(port,(req,res)=>{
-    console.log("Hello world")
+    console.log("Deployed on port "+port )
 })
 app.get("/",(req,res)=> res.send("Hello World"))
